@@ -197,6 +197,21 @@ article {
   z-index: 1;
 }
 
+.icon-box-simple {
+  position: relative;
+  background: var(--border-gradient-onyx);
+  width: 30px;
+  height: 30px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  color: var(--orange-yellow-crayola);
+  box-shadow: var(--shadow-1);
+  z-index: 1;
+}
+
 .icon-box::before {
   content: "";
   position: absolute;
@@ -206,7 +221,18 @@ article {
   z-index: -1;
 }
 
+.icon-box-simple::before {
+  content: "";
+  position: absolute;
+  inset: 1px;
+  background: var(--eerie-black-1);
+  border-radius: inherit;
+  z-index: -1;
+}
+
 .icon-box ion-icon { --ionicon-stroke-width: 35px; }
+
+.icon-box-simple ion-icon { --ionicon-stroke-width: 35px; }
 
 article { display: none; }
 
@@ -404,7 +430,7 @@ main {
 }
 
 .contact-item {
-  min-width: 100%;
+  max-width: 100%;
   display: flex;
   align-items: center;
   gap: 16px;
@@ -1223,6 +1249,10 @@ textarea.form-input::-webkit-resizer { display: none; }
 
 
 
+.icon-box:hover { background: var(--bg-gradient-yellow-1); }
+
+.icon-box:hover::before { background: var(--bg-gradient-yellow-2); }
+
 
 
 /*-----------------------------------*\
@@ -1307,6 +1337,13 @@ textarea.form-input::-webkit-resizer { display: none; }
   .icon-box {
     width: 50px;
     height: 50px;
+    border-radius: 10px;
+    font-size: 18px;
+  }
+
+  .icon-box-simple {
+    width: 35px;
+    height: 35px;
     border-radius: 10px;
     font-size: 18px;
   }
@@ -1404,7 +1441,7 @@ textarea.form-input::-webkit-resizer { display: none; }
     margin-top: 5px;
   }
 
-  .service-content-box { text-align: left; }
+  .service-content-box { text-align: center; }
 
   /* testimonials */
 
