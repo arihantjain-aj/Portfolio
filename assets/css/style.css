@@ -731,7 +731,8 @@ main {
 
 .modal-img-wrapper > img { display: none; }
 
-.modal-title { margin-bottom: 4px; }
+.modal-title { margin-bottom: 4px;
+text-align: center; }
 
 .modal-content time {
   font-size: var(--fs-6);
@@ -1454,9 +1455,10 @@ textarea.form-input::-webkit-resizer { display: none; }
     padding-bottom: 35px;
   }
 
+   /*Image in Portfolio*/
   .content-card {
-    padding: 30px;
-    padding-top: 25px;
+    padding: 8px;
+    padding-top: 8px;
   }
 
   .testimonials-avatar-box {
@@ -1468,7 +1470,8 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .testimonials-item-title {
     margin-bottom: 10px;
-    margin-left: 95px;
+    margin-left: 10px;
+    text-align: center;
   }
 
   .testimonials-text {
@@ -1496,6 +1499,7 @@ textarea.form-input::-webkit-resizer { display: none; }
   }
 
   .modal-avatar-box {
+    align-items: center;
     border-radius: 18px;
     margin-bottom: 0;
   }
@@ -1625,10 +1629,10 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .testimonials-modal {
     gap: 35px;
-    max-width: 680px;
+    max-width: 900px;
   }
 
-  .modal-avatar-box img { width: 80px; }
+  .modal-avatar-box img { width: 250px; }
 
 
 
