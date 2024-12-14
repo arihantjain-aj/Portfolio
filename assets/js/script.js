@@ -25,7 +25,9 @@ const overlay = document.querySelector("[data-overlay]");
 // modal variable
 const modalImg = document.querySelector("[data-modal-img]");
 const modalTitle = document.querySelector("[data-modal-title]");
+const modalType = document.querySelector("[data-modal-type]");
 const modalText = document.querySelector("[data-modal-text]");
+const modalLink = document.querySelector("[data-modal-link]").href;
 
 // modal toggle function
 const testimonialsModalFunc = function () {
@@ -38,10 +40,16 @@ for (let i = 0; i < testimonialsItem.length; i++) {
 
   testimonialsItem[i].addEventListener("click", function () {
 
-    modalImg.src = this.querySelector("[data-testimonials-avatar]").src;
-    modalImg.alt = this.querySelector("[data-testimonials-avatar]").alt;
+    modalImg.src = this.querySelector("[data-project-snapshot]").src;
+    modalImg.alt = this.querySelector("[data-project-snapshot]").alt;
     modalTitle.innerHTML = this.querySelector("[data-testimonials-title]").innerHTML;
-    modalText.innerHTML = this.querySelector("[data-testimonials-text]").innerHTML;
+    modalType.innerHTML = this.querySelector("[data-project-type]").innerHTML;
+    modalText.innerHTML = this.querySelector("[data-project-description]").innerHTML;
+    const modalLink = document.querySelector("[data-modal-link]");
+    const projectLink = this.querySelector("[data-project-link]");
+
+    // Update the href attribute
+    modalLink.href = projectLink.href;
 
     testimonialsModalFunc();
 
