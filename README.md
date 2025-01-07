@@ -6,7 +6,23 @@
 
 
 
+
+
+
+
+
+
+
+
 This is a fully responsive personal portfolio website, responsive for all devices, built using HTML, CSS, and JavaScript.
+
+
+
+
+
+
+
+
 
 
 
@@ -22,7 +38,23 @@ This is a fully responsive personal portfolio website, responsive for all device
 
 
 
+
+
+
+
+
+
+
+
 ## Contact
+
+
+
+
+
+
+
+
 
 
 
@@ -38,7 +70,23 @@ If you want to contact me you can reach me at [Email](mailto:arihantjain7340@gma
 
 
 
+
+
+
+
+
+
+
+
 ## License
+
+
+
+
+
+
+
+
 
 
 
@@ -50,3 +98,50 @@ MIT
 
 
 
+
+
+
+
+ Script-Generated Comment
+ Script-Generated Comment
+ Script-Generated Comment
+ Script-Generated Comment
+ Script-Generated Comment
+ Script-Generated Comment
+ Script-Generated Comment
+ Script-Generated Comment
+ Script-Generated Comment
+ Script-Generated Comment
+ Script-Generated Comment
+ Script-Generated Comment
+ Script-Generated Comment
+ Script-Generated Comment
+ Script-Generated Comment
+ Script-Generated Comment
+ Script-Generated Comment
+ Script-Generated Comment
+ Script-Generated Comment
+ Script-Generated Comment
+ Script-Generated Comment
+ Script-Generated Comment
+ Script-Generated Comment
+ Script-Generated Comment
+ Script-Generated Comment
+ Script-Generated Comment
+ Script-Generated Comment
+ Script-Generated Comment
+ Script-Generated Comment
+ Script-Generated Comment
+ Script-Generated Comment
+ Script-Generated Comment
+ Script-Generated Comment
+ Script-Generated Comment
+ Script-Generated Comment
+ Script-Generated Comment
+ Script-Generated Comment
+ Script-Generated Comment
+ Script-Generated Comment
+ Script-Generated Comment
+ Script-Generated Comment
+ Script-Generated Comment
+ Script-Generated Comment
